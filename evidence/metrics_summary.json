@@ -1,0 +1,24 @@
+{
+  "generated_at_utc": "2026-10-15T04:15:38.429269+00:00",
+  "scope": "Local demonstration cases; not production performance benchmarks",
+  "total_cases": 6,
+  "status_counts": {
+    "denied": 1,
+    "failed": 1,
+    "invalid": 1,
+    "not_found": 1,
+    "ok": 1,
+    "review_required": 1
+  },
+  "average_duration_ms": 0.849,
+  "maximum_duration_ms": 3.29,
+  "trace_files": [
+    "tc-evidence-01.json",
+    "tc-evidence-02.json",
+    "tc-evidence-03.json",
+    "tc-evidence-04.json",
+    "tc-evidence-05.json",
+    "tc-evidence-06.json"
+  ],
+  "content_logged": false
+}

@@ -1,0 +1,20 @@
+{
+  "case_id": "TC-EVIDENCE-04",
+  "timestamp_utc": "2026-10-15T04:15:38.425192+00:00",
+  "tool": "document_lookup",
+  "arguments": {
+    "document_name": "missing_demo.txt"
+  },
+  "status": "not_found",
+  "error": "Approved document was not found",
+  "duration_ms": 0.145,
+  "error_type": "file_not_found",
+  "output_content_recorded": false,
+  "event": {
+    "event": "document_lookup.completed",
+    "run_id": "TC-EVIDENCE-04",
+    "status": "not_found",
+    "duration_ms": 0.145,
+    "error_type": "file_not_found"
+  }
+}

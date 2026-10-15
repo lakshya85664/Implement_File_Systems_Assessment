@@ -1,0 +1,13 @@
+{
+  "case_count": 6,
+  "statuses": {
+    "denied": 1,
+    "failed": 1,
+    "invalid": 1,
+    "not_found": 1,
+    "ok": 1,
+    "review_required": 1
+  },
+  "pytest_exit_code": 0,
+  "pytest_passed": true
+}

@@ -1,0 +1,20 @@
+{
+  "case_id": "TC-EVIDENCE-02",
+  "timestamp_utc": "2026-10-15T04:15:38.423835+00:00",
+  "tool": "document_lookup",
+  "arguments": {
+    "document_name": 123
+  },
+  "status": "invalid",
+  "error": "Invalid document lookup request",
+  "duration_ms": 0.052,
+  "error_type": "validation_error",
+  "output_content_recorded": false,
+  "event": {
+    "event": "document_lookup.completed",
+    "run_id": "TC-EVIDENCE-02",
+    "status": "invalid",
+    "duration_ms": 0.052,
+    "error_type": "validation_error"
+  }
+}

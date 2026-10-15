@@ -1,0 +1,20 @@
+{
+  "case_id": "TC-EVIDENCE-05",
+  "timestamp_utc": "2026-10-15T04:15:38.427732+00:00",
+  "tool": "document_lookup",
+  "arguments": {
+    "document_name": "oversized_demo.txt"
+  },
+  "status": "review_required",
+  "error": "Document exceeds the configured size limit",
+  "duration_ms": 1.478,
+  "error_type": "size_limit_exceeded",
+  "output_content_recorded": false,
+  "event": {
+    "event": "document_lookup.completed",
+    "run_id": "TC-EVIDENCE-05",
+    "status": "review_required",
+    "duration_ms": 1.478,
+    "error_type": "size_limit_exceeded"
+  }
+}

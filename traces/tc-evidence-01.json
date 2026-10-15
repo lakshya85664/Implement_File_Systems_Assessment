@@ -1,0 +1,19 @@
+{
+  "case_id": "TC-EVIDENCE-01",
+  "timestamp_utc": "2026-10-15T04:15:38.423188+00:00",
+  "tool": "document_lookup",
+  "arguments": {
+    "document_name": "guide.txt"
+  },
+  "status": "ok",
+  "error": null,
+  "duration_ms": 3.29,
+  "error_type": null,
+  "output_content_recorded": false,
+  "event": {
+    "event": "document_lookup.completed",
+    "run_id": "TC-EVIDENCE-01",
+    "status": "ok",
+    "duration_ms": 3.29
+  }
+}

@@ -1,0 +1,4 @@
+
+Document Lookup Assessment
+This is an approved sample document for Topic 10.
+It demonstrates controlled file access in a local workspace.

@@ -1,0 +1,13 @@
+flowchart TD
+    A[Caller / Agent] --> B[DocumentLookupTool]
+    B --> C[Pydantic Input Validation]
+    C --> D{Approved Filename?}
+    D -- No --> E[Safe Denied / Invalid Result]
+    D -- Yes --> F[WorkspaceAdapter]
+    F --> G[Resolved Path Containment Check]
+    G --> H[Bounded Byte Read]
+    H --> I[UTF-8 Decode and Output Contract]
+    I --> J[Structured ToolResult]
+    B --> K[Structured Observability Event]
+    K --> L[Metadata-only Trace]
+    J --> M[Caller]

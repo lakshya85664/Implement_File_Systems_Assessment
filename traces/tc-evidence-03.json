@@ -1,0 +1,20 @@
+{
+  "case_id": "TC-EVIDENCE-03",
+  "timestamp_utc": "2026-10-15T04:15:38.424695+00:00",
+  "tool": "document_lookup",
+  "arguments": {
+    "document_name": "secret.txt"
+  },
+  "status": "denied",
+  "error": "Document is not approved for lookup",
+  "duration_ms": 0.067,
+  "error_type": "access_denied",
+  "output_content_recorded": false,
+  "event": {
+    "event": "document_lookup.completed",
+    "run_id": "TC-EVIDENCE-03",
+    "status": "denied",
+    "duration_ms": 0.067,
+    "error_type": "access_denied"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "case_id": "TC-EVIDENCE-06",
+  "timestamp_utc": "2026-10-15T04:15:38.428661+00:00",
+  "tool": "document_lookup",
+  "arguments": {
+    "document_name": "guide.txt"
+  },
+  "status": "failed",
+  "error": "Document storage is temporarily unavailable",
+  "duration_ms": 0.061,
+  "error_type": "storage_or_processing_error",
+  "output_content_recorded": false,
+  "event": {
+    "event": "document_lookup.completed",
+    "run_id": "TC-EVIDENCE-06",
+    "status": "failed",
+    "duration_ms": 0.061,
+    "error_type": "storage_or_processing_error"
+  }
+}
